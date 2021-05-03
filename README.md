@@ -6,8 +6,8 @@ Using python 3.7, run
 ```
 pip install requirements.txt
 wget https://github.com/matterport/Mask_RCNN/releases/download/v2.0/mask_rcnn_coco.h5
-cd ..
 git clone https://github.com/BrotherYanny/
+cd Artefact-Detection-MaskRcnn
 ```
 A virtual environment is recommended.
 
