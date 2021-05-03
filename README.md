@@ -11,7 +11,7 @@ git clone https://github.com/BrotherYanny/
 ```
 A virtual environment is recommended.
 
-A few changes to the mrcnn library need to be made:
+A few changes to the mrcnn library need to be made in order to allow the Mask R-CNN to learn from BG class samples:
 
 In mrcnn/model.py,
 in data_generation, comment out
