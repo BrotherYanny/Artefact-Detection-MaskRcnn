@@ -36,7 +36,7 @@ rois_per_box = int(0.9 * count / (gt_boxes.shape[0] + 0.000001))
 
 ## Usage
 After collecting an adequate dataset, place in the glitch/train and glitch/test directories
-and the annotation JSONs in the root folder
+and the corresponding annotations in via_region_data_train and via_region_data_test.
 
 To configure the model, load data, train and run:
 ```
