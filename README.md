@@ -1,6 +1,5 @@
 # Using a Mask R-CNN to Detect Video-Game Artefacts
-This is code adapted from [Matterport's Mask R-CNN implementation](https://github.com/matterport/Mask_RCNN#readme) to detect Textural Artefacts in Video-Games; in particular Missing, Low Resolution and Stretched. The weights provided are trained on samples from the game The Elder Scrolls V: Skyrim.
-
+This is code adapted from [Matterport's Mask R-CNN implementation](https://github.com/matterport/Mask_RCNN#readme) to detect Textural Artefacts in Video-Games; in particular Missing, Low Resolution and Stretched. Pre-trained weights to be provided trained on samples from the game The Elder Scrolls V: Skyrim.
 
 ## Installation
 Using python 3.7, run
@@ -33,8 +32,7 @@ to
 rois_per_box = int(0.9 * count / (gt_boxes.shape[0] + 0.000001))
 ```
 
-
-## Usage
+## Training
 After collecting an adequate dataset, place in the glitch/train and glitch/test directories
 and the corresponding annotations in via_region_data_train and via_region_data_test.
 
@@ -43,7 +41,6 @@ To configure the model, load data, train and run:
 python script.py train --dataset=glitch --weights=coco
 ```
 
-After getting trained weights (or using the pre-trained weights supplied), use the Jupyter Notebook 'test.ipynb' to test the model on your testing dataset (adjust the weight path if necessary).
+## Usage
+After getting trained weights (or using pre-trained weights), use the Jupyter Notebook 'test.ipynb' to test the model on your testing dataset (adjust the weight path as necessary).
 
-
-## Notes
