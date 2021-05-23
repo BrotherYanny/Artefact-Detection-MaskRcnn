@@ -1,5 +1,5 @@
 # Using a Mask R-CNN to Detect Video-Game Artefacts
-This is code adapted from [Matterport's Mask R-CNN implementation](https://github.com/matterport/Mask_RCNN#readme) to detect Textural Artefacts in Video-Games; in particular Missing, Low Resolution and Stretched. Pre-trained weights to be provided trained on samples from the game The Elder Scrolls V: Skyrim.
+This is code adapted from [Matterport's Mask R-CNN implementation](https://github.com/matterport/Mask_RCNN#readme) to detect Textural Artefacts in Video-Games; in particular Missing, Low Resolution and Stretched. Pre-trained weights to be provided trained on samples from the game The Elder Scrolls V: Skyrim, along with the training dataset.
 
 ## Installation
 Using python 3.7, run
